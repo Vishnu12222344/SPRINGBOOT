@@ -10,29 +10,25 @@ A simple Spring Boot application for demonstrating RESTful APIs and layered arch
 - Spring Data JPA
 - H2/MySQL/PostgreSQL (as per config)
 - Maven
-
 ## 📁 Project Structure
 
-demo_demo/
-├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ │ └── com/example/demo/
-│ │ │ ├── HomeController.java # Home page or index controller
-│ │ │ ├── SpringBootProjectApplication.java # Main class (entry point)
-│ │ │ ├── User.java # POJO/entity class
-│ │ │ └── UserController.java # REST controller for user operations
-│ │ └── resources/
-│ │ ├── static/ # Static files (CSS/JS/images)
-│ │ ├── templates/ # Thymeleaf templates
-│ │ └── application.properties # Configuration file
-│
-├── src/test/java/
-│ └── com/example/demo/
-│ └── SpringBootProjectApplicationTests.java # JUnit test class
-│
-├── pom.xml # Maven project file
-└── mvnw / mvnw.cmd # Maven wrapper
+| Path                                                   | Description                                      |
+|--------------------------------------------------------|--------------------------------------------------|
+| `demo_demo/`                                           | Root directory                                   |
+| ├── `src/main/java/com/example/demo/`                  | Main Java source folder                          |
+| ├── ├── `HomeController.java`                          | Home page or index controller                    |
+| ├── ├── `SpringBootProjectApplication.java`            | Main class (entry point)                         |
+| ├── ├── `User.java`                                    | POJO/entity class                                |
+| ├── ├── `UserController.java`                          | REST controller for user operations              |
+| ├── `src/main/resources/`                              | Resource files                                   |
+| ├── ├── `static/`                                      | Static files (CSS/JS/images)                     |
+| ├── ├── `templates/`                                   | Thymeleaf templates                              |
+| ├── ├── `application.properties`                       | Application configuration                        |
+| ├── `src/test/java/com/example/demo/`                  | JUnit test package                               |
+| ├── ├── `SpringBootProjectApplicationTests.java`       | JUnit test class                                 |
+| `pom.xml`                                              | Maven build configuration                        |
+| `mvnw / mvnw.cmd`                                      | Maven wrapper scripts                            |
+
 
 
 ## 🧭 Code Navigation Guide
